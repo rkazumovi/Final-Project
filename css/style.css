@@ -1,0 +1,147 @@
+:root,
+[data-theme="light"] {
+    --base-text-color: darkslategray;
+    --base-bg-color: white;
+    --main-color: darkblue;
+}
+[data-theme="dark"] {
+    --base-text-color: white;
+    --base-bg-color: darkslategray;
+    --main-color: darkblue;
+}
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--base-bg-color);
+    color: var(--base-text-color);
+}
+.fa-bars {
+    display: none;
+}
+.div-1 {
+    max-width: 1140px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.btn-1 {
+    max-width: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--base-bg-color);
+    color: var(--base-text-color);
+    font-size: 25px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+.text-1 {
+    color: white;
+    font-size: 25px;
+    color: var(--base-text-color);
+}
+.main-btn {
+    width: 750px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    background-color: var(--main-color);
+    border-radius: 25px;
+}
+.user-search {
+    width: 300px;
+    background-color: var(--main-color);
+    border: none;
+}
+::placeholder {
+    color: white;
+    outline: none;
+}
+.search-div {
+    width: 85px;
+    height: 45px;
+    background-color: blue;
+    border-radius: 70px;
+}
+.text-2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.users {
+    width: 750px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--main-color);
+    border-radius: 25px;
+}
+.profile {
+    width: 100px;
+    height: auto;
+}
+.div-2 {
+    max-width: 1140px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.div-3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px
+}
+.text-3 {
+    font-size: 35px;
+    color: white;
+    text-transform: capitalize;
+}
+.octocat {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.joined,
+.profile-bio {
+    font-size: 20px;
+    color: grey;
+}
+.div-4 {
+    width: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    margin-top: 30px;
+    background-color: var(--main-color);
+    border-radius: 25px;
+}
+.div-5 {
+    width: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    margin-top: 30px;
+    background-color: var(--main-color);
+    border-radius: 25px;
+}
+.fa-location-dot,
+.fa-link,
+.fa-building {
+    font-size: 10px;
+    color: white;
+    white-space: nowrap;
+    gap: 5px;  
+}
+.fa-twitter {
+    font-size: 10px;
+    color: grey;
+    white-space: nowrap;
+    gap: 5px;
+}

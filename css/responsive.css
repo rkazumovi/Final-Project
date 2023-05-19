@@ -1,0 +1,141 @@
+@media (min-width: 50px) and (max-width: 480px) {
+    .body {
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-bars {
+        display: block;
+        width: 3rem;
+        font-size: 1.25rem;
+        color: grey;
+    }
+    .div-1 {
+        max-width: 480px;
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .text-1 {
+        color: white;
+        font-size: 13px;
+        color: var(--base-text-color);
+    }
+    .btn-1 {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--base-bg-color);
+        color: var(--base-text-color);
+        font-size: 15px;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+    }
+    .main-btn {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        margin: 35px 0;
+        background-color: var(--main-color);
+        border-radius: 25px;
+    }
+    .user-search {
+        width: auto;
+        background-color: var(--main-color);
+        border: none;
+    }
+    ::placeholder {
+        color: white;
+        outline: none;
+        font-size: 10px;
+    }
+    .search-div {
+        width: auto;
+        height: auto;
+        background-color: blue;
+        border-radius: 65px;
+    }
+    .text-2 {
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .users {
+        max-width: 480px;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--main-color);
+        border-radius: 25px;
+    }
+    .profile {
+        width: 60px;
+        height: auto;
+        vertical-align: top;
+    }
+    .div-2 {
+        max-width: 480px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+    .text-3 {
+        font-size: 25px;
+        color: white;
+        text-transform: capitalize;
+    }
+    .octocat {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .joined,
+    .profile-bio {
+    font-size: 10px;
+    color: grey;
+    }
+    .div-4 {
+    width: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 7px;
+    margin-top: 10px;
+    background-color: var(--main-color);
+    border-radius: 25px;
+    }
+    .div-5 {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        margin-top: 20px;
+        background-color: var(--main-color);
+        border-radius: 25px;
+    }
+    .fa-location-dot,
+    .fa-link,
+    .fa-building {
+        font-size: 7px;
+        color: white;
+        white-space: nowrap;
+        gap: 5px;  
+    }
+    .fa-twitter {
+        font-size: 7px;
+        color: grey;
+        white-space: nowrap;
+        gap: 5px;
+    }
+}
